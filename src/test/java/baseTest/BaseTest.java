@@ -31,7 +31,7 @@ public class BaseTest {
 	@BeforeMethod
 	public LandingPage launchBrowser() {
 
-		initializer();
+		driver = initializer();
 		landingpage = new LandingPage(driver);
 		return landingpage;
 
