@@ -18,7 +18,7 @@ import pageobject.SignUpPage;
 
 public class Tests extends BaseTest{
 
-	//CI
+	//CICD
 		
 	@Test (dataProvider = "getData")
 	public void test1(String uname, String pword) {
